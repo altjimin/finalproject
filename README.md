@@ -1,5 +1,3 @@
-# midterm_project
-midterm project repository for INF-231
-
-prepared by Aibolat Batyrov & Tarazi Azretaly
+# final_project
+final project repository for INF-231
 Suleyman Demirel University 2021
