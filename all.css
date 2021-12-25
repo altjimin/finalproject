@@ -1,0 +1,222 @@
+body{
+    margin: 0;
+}
+
+.heading{
+    background-image:url('veg-fruit.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.project-name{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 7%;
+    text-align: center;
+    color: white;
+    font-variant: small-caps;
+    font-size: 100px;
+    font-family: fantasy;
+    letter-spacing: 20px;
+}
+
+.parameter{
+    background-color: #184d47;
+    text-align: center;
+}
+
+.parameter-ul{
+   display: inline;
+}
+
+.parameter-ul li{
+   font-size: 17px;
+   list-style: none;
+   display: inline-block;
+   padding: 25px 25px 26px 25px;
+
+}
+
+.parameter-a{
+    color: white;
+    text-decoration: none;
+}
+
+.parameter-ul li:hover{
+   background-color: rgba(0, 80, 0, 0.4);
+   transform: scale(1.08);
+   color: white;
+}
+
+.content, .content2{
+   margin: 5%;
+   width: 90%;
+   text-align: center;
+
+}
+
+.full{
+   margin: 25px;
+   border: 1px solid black;
+   border-radius: 50px 50px 50px 50px;
+   display: inline-block;
+}
+
+.full:hover, .pictures:hover{
+   box-shadow: 0 0 10px 3px;
+   color: rgb(104,70,108);
+}
+
+.picture{
+   height: 300px;
+   width: 300px;
+   padding: 10px;
+   text-decoration: none;
+   border-radius: 50px 50px 50px 50px;
+}
+
+.picture-name{
+   padding: 10px;
+   font-weight: bold;
+
+}
+
+.names{
+   font-variant: small-caps;
+   padding: 10px;
+   font-size: 60px;
+   font-weight: bold;
+   color: white;
+   letter-spacing: 10px;
+
+}
+
+.deal{
+   padding: 50px;
+   font-size: 20px;
+   font-weight: bold;
+   font-family: italic;
+   display: inline-block;
+   margin: 30px;
+   width: 300px;
+   background-image: linear-gradient(to right, orange,violet);
+}
+
+.coupon{
+   border-radius: 20px;
+   margin-top: 20px;
+}
+
+.coupon:hover{
+   box-shadow: 0 0 10px  5px red;
+}
+
+.name{
+   font-variant: small-caps;
+   padding: 5%;
+   font-size: 60px;
+   font-weight: bold;
+   margin-bottom: 20px;
+   color: white;
+   letter-spacing: 10px;
+   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.images{
+   display: inline-block;
+}
+
+.pictures{
+   margin: 25px;
+   border: 1px solid black;
+   border-radius: 50px 50px 50px 50px;
+   display: inline-block;
+}
+
+.image-size{
+   height: 200px;
+   width: 280px;
+   border-radius: 50px 50px 50px 50px;
+   padding: 10px;
+}
+
+.description{
+   margin-top: 20px;
+   margin-bottom: 10px;
+}
+
+.picture-select{
+   margin: 10px 0 0 0;
+}
+
+.btn{
+   padding: 10px;
+   margin-bottom: 20px;
+   font-weight: bold;
+   background-color: #184d47;
+   color: white;
+}
+
+.btn:hover{
+   box-shadow: 0 0 5px 5px rgba(0, 80, 0, 0.4) inset;
+   color: white;
+}
+
+.container{
+  position: relative;
+  left: 220px;
+}
+
+.carousel{
+   width:700px;
+}
+
+.it{
+   text-align: center;
+   font-size: 50px;
+   margin-top: 40px;
+   color:white;
+}
+
+.parameter-it{
+   display: inline;
+}
+
+.parameter-it li{
+   display: inline-block;
+   font-size: 17px;
+   padding: 80px;
+}
+
+.contact-form{
+   width: 500px;
+   background-color: #fff;
+   box-shadow: 0 0 20px 0 #999;
+   margin-left: 500px;
+}
+
+.input-write{
+   width: 400px;
+   height: 40px;
+   margin: 20px 20px 20px 30px;
+   padding-left: 15px;
+   border: 1px solid black;
+   border-radius: 14px;
+   outline: none;
+}
+
+.textarea-write{
+   height: 150px;
+   padding-top: 15px;
+}
+
+@media (max-width: 601px){
+.heading{background-image: url('https://cdn-ru0.puzzlegarage.com/img/puzzle/1f/2815_thumb_r.v1.jpg');}
+.project-name{font-size: 60px;}
+.contact-form{width: 300px; position:relative; right: 450px;}
+.input-write{width:200px;}
+.parameter-ul li{display:inline; padding: 6px; position:relative; right: 20px;}
+.deal{position:relative; right:15px; }
+.carousel{width: 320px; position: relative; right: 215px;}
+.name{font-size:40px;}
+.full{position:relative; right: 15px;}
+}
